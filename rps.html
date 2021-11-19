@@ -21,7 +21,7 @@
             else if(player==computer_choice){
                 alert("draw");
             }
-            else if( (player=='rock' && computer_choice=='paper') || (player=='rock' && computer_choice=='scissors') || (player=='scissors' && computer_choice=='paper') ){
+            else if( ((player=='paper' && computer_choice=='rock') || (player=='rock' && computer_choice=='scissors')) || (player=='scissors' && computer_choice=='paper') ){
                 alert(' player won game');
             }
             else{
